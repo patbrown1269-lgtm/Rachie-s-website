@@ -138,7 +138,7 @@ h4{
     text
 }
 
-@media (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 900px) {
     .row{
         flex-direction: column;
     } 
@@ -159,4 +159,5 @@ h4{
     font-size: 15px;
 }
     }
+
 
