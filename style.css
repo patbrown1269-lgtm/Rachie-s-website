@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(small-cute-hearts-with-copy-space.jpg);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+
+.logo h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #4EA080;
+}
+
+.title-text{
+    text-align: center;
+    font-size: 2rem;
+    color: #753326;
+    align-content: center;
+    width: 90%;
+    position: absolute;
+    top: 40%;
+
+}
+
+.second-section {
+
+margin: auto;
+text-align: center;
+padding: 40px;
+margin-top: 30px;
+background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(./joanna-kosinska-P9oOLKNhIYU-unsplash.jpg)
+
+
+}
+
+.pictures-col {
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 20px ;
+    margin-left: 40px;
+    position: relative;
+
+}
+
+.pictures-col img{
+   
+    width: 100%;
+    height: 250px;
+    width: 250px;
+    padding: 0;
+}
+
+.pictures-col img h2{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+
+}
+
+.row {
+    display: flex;
+}
+
+h1 {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+h2{
+    color: gold;
+    font-size: 30px;
+      font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+    color: yellow;
+    font-size: 18px;
+      font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title-p {
+    color: #753326;
+    font-size: 30px
+}
+
+
+
+.next {
+    
+    padding: 20px;
+    margin: 35px auto;
+    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(./55320c3b-5070-40d8-a0e0-838bcb25f6e3~cr_0.0.3487.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.nextie-col{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 20px ;
+    margin-left: 30px;
+    position: relative;
+    
+}
+
+.nextie-col img{
+    width: 250px;
+    height: 250px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+h4{
+    font-size: 40px;
+      font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+
+}
+
+.nextie{
+    color: purple;
+    text
+}
+
+@media (max-width: 700px) {
+    .row{
+        flex-direction: column;
+    } 
+    .nextie-col img{
+        flex-direction: column;
+    }
+    .pictures-col{
+        flex-direction: column;
+    
+    }
+.header {
+    background-size: contain;
+}
+.title-text {
+    font-size: 14px;
+}
+.logo h3{
+    font-size: 15px;
+}
+    }
