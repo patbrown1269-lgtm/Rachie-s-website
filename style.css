@@ -138,43 +138,20 @@ h4{
     text
 }
 
-@media (max-width: 1100px) {
-    .row {
+@media (min-width: 300px) and (max-width: 900px) {
+    .row{
         flex-direction: column;
     } 
-    .nextie-col img {
-        flex-direction: column;
-    }
-    .pictures-col {
-        flex-direction: column;
-        margin-left: 0;
-    }
-    .header {
-        background-size: cover;
-    }
-    .title-text {
-        font-size: 1.5rem;
-        top: 30%;
-    }
-    .logo h3 {
-        font-size: 20px;
-    }
-    .pictures-col {
-        flex-basis: 100%;
-        margin-left: 0;
-    }
-    .nextie-col {
-        flex-basis: 100%;
-        margin-left: 0;
-    }
-    h2 {
-        font-size: 24px;
-    }
-    p {
-        font-size: 16px;
-    }
-    h4 {
-        font-size: 30px;
-    }
+
+.header {
+    background-size: contain;
 }
+.title-text {
+    font-size: 14px;
+}
+.logo h3{
+    font-size: 15px;
+}
+    }
+
 
